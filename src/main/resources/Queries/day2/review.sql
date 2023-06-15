@@ -11,7 +11,7 @@ where JOB_TITLE IN ('President','Sales Manager','Finance Manager');
 
 -- Display all Department that does not have manager_id in departments table
 select * from DEPARTMENTS
-where MANAGER_ID IS NULL ;
+where MANAGER_ID IS NULL;
 
 --  Display all Locations in US or UK from Locations table
 select * from LOCATIONS
